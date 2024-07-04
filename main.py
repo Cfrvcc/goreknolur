@@ -19,12 +19,12 @@ from progress_bar import progress, TimeFormatter, humanbytes
 from dotenv import load_dotenv
 
 load_dotenv()
-bot_token = os.environ.get('BOT_TOKEN')
+bot_token = os.environ.get('7329793636:AAHzjjM4B1ffL8g7XMIeK11Oi8tMnqWroS0')
 workers = int(os.environ.get('WORKERS'))
-api = int(os.environ.get('API_KEY'))
-hash = os.environ.get('API_HASH')
+api = int(os.environ.get('2127284'))
+hash = os.environ.get('dfd91d5d791a9d5ffc4b085d44ed8495')
 chnnl = os.environ.get('CHANNEL_URL')
-BOT_URL = os.environ.get('BOT_URL')
+BOT_URL = os.environ.get('TikTok Downloader ⚡')
 app = Client("JayBee", bot_token=bot_token, api_id=api, api_hash=hash, workers=workers)
 
 
